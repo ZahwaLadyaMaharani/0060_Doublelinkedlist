@@ -102,7 +102,7 @@ void deleteNode()
         START = START->next; //step 2: update the START pointer
         if (START != NULL)
         {
-            START->prev = NULL; // step
+            START->prev = NULL; //  Step 3: make the new node point to the first node
         }
     }
     else
